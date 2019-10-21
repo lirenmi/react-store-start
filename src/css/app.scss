@@ -1,48 +1,23 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-// import Font Awesome
-@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
 
-// Set your brand colors
+// Import font awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+// Set Colors
 $purple: #c9168d;
 $pink: #fa7c91;
 $dark: #333;
-$brown: #757763;
-$beige-light: #d0d1cd;
 $beige-lighter: rgb(245, 245, 245);
 
-// Update Bulma's global variables
+// update global variables
 $family-sans-serif: 'Nunito', sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
 $primary: $purple;
 $link: $dark;
 $danger: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
 
-// Update some of Bulma's component variables
+// update component variables
 $body-background-color: $beige-lighter;
-// $control-border-width: 2px;
-// $input-border-color: transparent;
-// $input-shadow: none;
 
-//  navbar custom
-$navbar-height: 7.25rem;
-$navbar-background-color: $beige-lighter;
-
-// Import only what you need from Bulma
-@import '../node_modules/bulma/bulma.sass';
-// @import '../node_modules/bulma/sass/utilities/_all.sass';
-// @import '../node_modules/bulma/sass/base/_all.sass';
-// @import '../node_modules/bulma/sass/elements/button.sass';
-// @import '../node_modules/bulma/sass/elements/container.sass';
-// @import '../node_modules/bulma/sass/elements/form.sass';
-// @import '../node_modules/bulma/sass/elements/title.sass';
-// @import '../node_modules/bulma/sass/components/navbar.sass';
-// @import '../node_modules/bulma/sass/layout/hero.sass';
-// @import '../node_modules/bulma/sass/layout/section.sass';
-
-@import './style.scss';
+@import '../../node_modules/bulma/bulma.sass';
